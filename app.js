@@ -6,6 +6,7 @@ const server = http.createServer((req, res) => {
 	  res.end('hello world');
 	  res.end('こんにちは')
 	  res.end('おやすみ')
+	  res.end('おはよう')
 });
 
 server.listen(PORT, () => {
